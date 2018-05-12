@@ -1,0 +1,33 @@
+04/11 - 
+
+Xpath:
+
+Absolute : /
+Relative : // -->can be in the middle
+
+syntax;
+
+//tagname[@attribute1 = 'attributevalue1'] [@attribute2 = 'attributevalue2']
+contains,text,string,normalized space
+
+
+//*[text()='Partial Link Test']  
+       
+* -->can be anything
+
+//strong[string()='Partial Link Test']
+
+
+//strong[normalize-space()='Partial Link Test']   Note:It will ignore the spaces in the tag
+
+starts with -->//tagname[starts-with (@function/attribute,'attributevalue')]
+contains  -->//tagname[contains(@function/attribute,'attributevalue')]
+
+//input[contains(@id,'profession')]
+//input[starts-with(@id,'profession')]
+
+
+
+
+ 
+
