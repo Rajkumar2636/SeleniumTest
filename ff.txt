@@ -10,3 +10,5 @@ public void printToArrayLimit(int[] array, int index){
     System.out.println(array[index]);
     printToArrayLimit(array, index+1);
 }
+
+This to to handle Array IndexoutofBound Exception
